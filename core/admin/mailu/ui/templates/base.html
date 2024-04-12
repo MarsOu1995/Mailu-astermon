@@ -70,7 +70,7 @@
           {%- block content %}{%- endblock %}
         </div>
       </div>
-      <footer class="main-footer">
+      {#<footer class="main-footer">
         Built with <i class="fa fa-heart text-danger" aria-hidden="true"></i><span class="sr-only">love</span>
         using <a href="https://flask.palletsprojects.com/">Flask</a>
         and <a href="https://adminlte.io/themes/v3/index3.html">AdminLTE</a>.
@@ -83,7 +83,7 @@
             {{ config["MAILU_VERSION"] }}
           </span>
         </div>
-      </footer>
+      </footer>#}
     </div>
     <script src="{{ url_for('static', filename='vendor.js') }}"></script>
     <script src="{{ url_for('static', filename='app.js') }}"></script>

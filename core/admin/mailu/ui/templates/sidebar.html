@@ -110,7 +110,7 @@
         </a>
       </li>
       {%- endif %}
-      <li class="nav-item" role="none">
+      {#<li class="nav-item" role="none">
         <a href="{{ config["WEBSITE"] }}" target="_blank" class="nav-link" role="menuitem" rel="noreferrer">
         <i class="nav-icon fa fa-globe"></i>
         <p>{% trans %}Website{% endtrans %} <i class="fas fa-external-link-alt text-xs"></i></p>
@@ -121,7 +121,7 @@
           <i class="nav-icon fa fa-life-ring"></i>
           <p>{% trans %}Help{% endtrans %} <i class="fas fa-external-link-alt text-xs"></i></p>
         </a>
-      </li>
+      </li>#}
       {%- if config['DOMAIN_REGISTRATION'] %}
       <li class="nav-item" role="none">
         <a href="{{ url_for('.domain_signup') }}" class="nav-link" role="menuitem">
